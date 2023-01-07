@@ -1,0 +1,415 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "maxProperties": 47,
+    "minProperties": 47,
+    "properties": {
+        "buy_currency": {
+            "maxLength": 5,
+            "minLength": 5,
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "buy_price": {
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false,
+            "maximum": 7000,
+            "minimum": 450,
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "catalog_category": {
+            "maxLength": 14,
+            "minLength": 8,
+            "type": [
+                "string"
+            ]
+        },
+        "collection_id": {
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false,
+            "maximum": 1497,
+            "minimum": 9,
+            "type": [
+                "integer"
+            ]
+        },
+        "color_1": {
+            "maxLength": 8,
+            "minLength": 3,
+            "type": [
+                "string"
+            ]
+        },
+        "color_2": {
+            "maxLength": 8,
+            "minLength": 3,
+            "type": [
+                "string"
+            ]
+        },
+        "content_events": {
+            "items": {
+                "maxLength": 17,
+                "minLength": 17,
+                "type": [
+                    "string"
+                ]
+            },
+            "maxItems": 6,
+            "minItems": 1,
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "content_locations": {
+            "items": {
+                "maxLength": 12,
+                "minLength": 12,
+                "type": [
+                    "string"
+                ]
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "exchange_currency": {
+            "maxLength": 14,
+            "minLength": 10,
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "exchange_price": {
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false,
+            "maximum": 900,
+            "minimum": 20,
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "filename": {
+            "maxLength": 38,
+            "minLength": 22,
+            "type": [
+                "string"
+            ]
+        },
+        "filename_closet_image": {
+            "maxLength": 38,
+            "minLength": 22,
+            "type": [
+                "string"
+            ]
+        },
+        "filename_storage_image": {
+            "maxLength": 38,
+            "minLength": 22,
+            "type": [
+                "string"
+            ]
+        },
+        "gender": {
+            "maxLength": 7,
+            "minLength": 4,
+            "type": [
+                "string"
+            ]
+        },
+        "hha_category": {
+            "type": [
+                "null"
+            ]
+        },
+        "hha_concept_1": {
+            "type": [
+                "null"
+            ]
+        },
+        "hha_concept_2": {
+            "type": [
+                "null"
+            ]
+        },
+        "hha_points": {
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false,
+            "maximum": 573,
+            "minimum": 0,
+            "type": [
+                "integer"
+            ]
+        },
+        "hha_series": {
+            "type": [
+                "null"
+            ]
+        },
+        "hha_set": {
+            "type": [
+                "null"
+            ]
+        },
+        "image_closet_url": {
+            "maxLength": 80,
+            "minLength": 64,
+            "type": [
+                "string"
+            ]
+        },
+        "image_storage_url": {
+            "maxLength": 77,
+            "minLength": 61,
+            "type": [
+                "string"
+            ]
+        },
+        "internal_id": {
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false,
+            "maximum": 14986,
+            "minimum": 127,
+            "type": [
+                "integer"
+            ]
+        },
+        "internal_label": {
+            "type": [
+                "null"
+            ]
+        },
+        "internal_name": {
+            "type": [
+                "null"
+            ]
+        },
+        "is_craftable": {
+            "type": [
+                "boolean"
+            ]
+        },
+        "is_equippable": {
+            "type": [
+                "boolean"
+            ]
+        },
+        "is_seasonal": {
+            "type": [
+                "boolean"
+            ]
+        },
+        "is_unlocked": {
+            "type": [
+                "boolean"
+            ]
+        },
+        "label_themes": {
+            "items": {
+                "maxLength": 8,
+                "minLength": 8,
+                "type": [
+                    "string"
+                ]
+            },
+            "maxItems": 5,
+            "minItems": 1,
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "mannequin_season": {
+            "maxLength": 8,
+            "minLength": 6,
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "name": {
+            "maxLength": 29,
+            "minLength": 4,
+            "type": [
+                "string"
+            ]
+        },
+        "order": {
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false,
+            "maximum": 8,
+            "minimum": 1,
+            "type": [
+                "integer"
+            ]
+        },
+        "seasonal_availability": {
+            "maxLength": 8,
+            "minLength": 6,
+            "type": [
+                "string"
+            ]
+        },
+        "seasonality": {
+            "maxLength": 8,
+            "minLength": 6,
+            "type": [
+                "string"
+            ]
+        },
+        "sell_currency": {
+            "maxLength": 5,
+            "minLength": 5,
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "sell_price": {
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false,
+            "maximum": 80000,
+            "minimum": 10,
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "shape_1": {
+            "maxLength": 12,
+            "minLength": 3,
+            "type": [
+                "string"
+            ]
+        },
+        "shape_2": {
+            "maxLength": 1,
+            "minLength": 1,
+            "type": [
+                "string"
+            ]
+        },
+        "size_1": {
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false,
+            "maximum": 1.0,
+            "minimum": 1.0,
+            "type": [
+                "number"
+            ]
+        },
+        "size_2": {
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false,
+            "maximum": 1.0,
+            "minimum": 1.0,
+            "type": [
+                "number"
+            ]
+        },
+        "style_1": {
+            "maxLength": 8,
+            "minLength": 4,
+            "type": [
+                "string"
+            ]
+        },
+        "style_2": {
+            "maxLength": 8,
+            "minLength": 4,
+            "type": [
+                "string"
+            ]
+        },
+        "unique_entry_id": {
+            "maxLength": 17,
+            "minLength": 17,
+            "type": [
+                "string"
+            ]
+        },
+        "variant_name": {
+            "maxLength": 16,
+            "minLength": 3,
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "version_added": {
+            "maxLength": 6,
+            "minLength": 5,
+            "type": [
+                "string"
+            ]
+        },
+        "villager_gender": {
+            "maxLength": 7,
+            "minLength": 4,
+            "type": [
+                "string"
+            ]
+        }
+    },
+    "required": [
+        "buy_currency",
+        "buy_price",
+        "catalog_category",
+        "collection_id",
+        "color_1",
+        "color_2",
+        "content_events",
+        "content_locations",
+        "exchange_currency",
+        "exchange_price",
+        "filename",
+        "filename_closet_image",
+        "filename_storage_image",
+        "gender",
+        "hha_category",
+        "hha_concept_1",
+        "hha_concept_2",
+        "hha_points",
+        "hha_series",
+        "hha_set",
+        "image_closet_url",
+        "image_storage_url",
+        "internal_id",
+        "internal_label",
+        "internal_name",
+        "is_craftable",
+        "is_equippable",
+        "is_seasonal",
+        "is_unlocked",
+        "label_themes",
+        "mannequin_season",
+        "name",
+        "order",
+        "seasonal_availability",
+        "seasonality",
+        "sell_currency",
+        "sell_price",
+        "shape_1",
+        "shape_2",
+        "size_1",
+        "size_2",
+        "style_1",
+        "style_2",
+        "unique_entry_id",
+        "variant_name",
+        "version_added",
+        "villager_gender"
+    ],
+    "title": "ClothingDressUp",
+    "type": "object"
+}
