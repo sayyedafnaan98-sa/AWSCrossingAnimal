@@ -1,0 +1,111 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "maxProperties": 11,
+    "minProperties": 11,
+    "properties": {
+        "content_events": {
+            "items": {
+                "maxLength": 19,
+                "minLength": 19,
+                "type": [
+                    "string"
+                ]
+            },
+            "maxItems": 2,
+            "minItems": 1,
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "content_locations": {
+            "items": {
+                "maxLength": 13,
+                "minLength": 13,
+                "type": [
+                    "string"
+                ]
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "filename_image": {
+            "maxLength": 20,
+            "minLength": 3,
+            "type": [
+                "string"
+            ]
+        },
+        "image_url": {
+            "maxLength": 61,
+            "minLength": 44,
+            "type": [
+                "string"
+            ]
+        },
+        "internal_id": {
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false,
+            "maximum": 1114,
+            "minimum": 19,
+            "type": [
+                "integer"
+            ]
+        },
+        "internal_label": {
+            "type": [
+                "null"
+            ]
+        },
+        "internal_name": {
+            "type": [
+                "null"
+            ]
+        },
+        "is_seasonal": {
+            "type": [
+                "boolean"
+            ]
+        },
+        "name": {
+            "maxLength": 18,
+            "minLength": 3,
+            "type": [
+                "string"
+            ]
+        },
+        "unique_entry_id": {
+            "maxLength": 17,
+            "minLength": 17,
+            "type": [
+                "string"
+            ]
+        },
+        "version_added": {
+            "maxLength": 5,
+            "minLength": 5,
+            "type": [
+                "string"
+            ]
+        }
+    },
+    "required": [
+        "content_events",
+        "content_locations",
+        "filename_image",
+        "image_url",
+        "internal_id",
+        "internal_label",
+        "internal_name",
+        "is_seasonal",
+        "name",
+        "unique_entry_id",
+        "version_added"
+    ],
+    "title": "Reaction",
+    "type": "object"
+}
