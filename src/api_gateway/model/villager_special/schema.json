@@ -1,0 +1,188 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "maxProperties": 21,
+    "minProperties": 21,
+    "properties": {
+        "birth_day": {
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false,
+            "maximum": 31,
+            "minimum": 1,
+            "type": [
+                "integer"
+            ]
+        },
+        "birth_month": {
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false,
+            "maximum": 12,
+            "minimum": 1,
+            "type": [
+                "integer"
+            ]
+        },
+        "bubble_color": {
+            "maxLength": 7,
+            "minLength": 7,
+            "type": [
+                "string"
+            ]
+        },
+        "filename_icon_image": {
+            "maxLength": 4,
+            "minLength": 3,
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "filename_photo": {
+            "maxLength": 9,
+            "minLength": 8,
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "filename_photo_image": {
+            "maxLength": 9,
+            "minLength": 8,
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "gender": {
+            "maxLength": 6,
+            "minLength": 4,
+            "type": [
+                "string"
+            ]
+        },
+        "gender_alternative": {
+            "maxLength": 6,
+            "minLength": 4,
+            "type": [
+                "string"
+            ]
+        },
+        "hobby_name": {
+            "maxLength": 9,
+            "minLength": 4,
+            "type": [
+                "string"
+            ]
+        },
+        "image_icon_url": {
+            "maxLength": 43,
+            "minLength": 42,
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "image_photo_url": {
+            "maxLength": 51,
+            "minLength": 49,
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "internal_id": {
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false,
+            "maximum": 69,
+            "minimum": 0,
+            "type": [
+                "integer"
+            ]
+        },
+        "internal_label": {
+            "type": [
+                "null"
+            ]
+        },
+        "internal_name": {
+            "type": [
+                "null"
+            ]
+        },
+        "name": {
+            "maxLength": 10,
+            "minLength": 3,
+            "type": [
+                "string"
+            ]
+        },
+        "name_color": {
+            "maxLength": 7,
+            "minLength": 7,
+            "type": [
+                "string"
+            ]
+        },
+        "species_name": {
+            "maxLength": 19,
+            "minLength": 3,
+            "type": [
+                "string"
+            ]
+        },
+        "umbrella_name": {
+            "maxLength": 19,
+            "minLength": 12,
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "umbrella_name_hhp": {
+            "maxLength": 26,
+            "minLength": 12,
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "unique_entry_id": {
+            "maxLength": 17,
+            "minLength": 17,
+            "type": [
+                "string"
+            ]
+        },
+        "version_added": {
+            "maxLength": 5,
+            "minLength": 5,
+            "type": [
+                "string"
+            ]
+        }
+    },
+    "required": [
+        "birth_day",
+        "birth_month",
+        "bubble_color",
+        "filename_icon_image",
+        "filename_photo",
+        "filename_photo_image",
+        "gender",
+        "gender_alternative",
+        "hobby_name",
+        "image_icon_url",
+        "image_photo_url",
+        "internal_id",
+        "internal_label",
+        "internal_name",
+        "name",
+        "name_color",
+        "species_name",
+        "umbrella_name",
+        "umbrella_name_hhp",
+        "unique_entry_id",
+        "version_added"
+    ],
+    "title": "VillagerSpecial",
+    "type": "object"
+}
